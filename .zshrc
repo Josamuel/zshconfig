@@ -116,7 +116,7 @@ alias gsgc="git stash && git checkout"
 alias gpohnv="git push origin head --no-verify"
 alias pia="cd ~/Desktop/Sysco_Projects/sysco-shop-ios/ && sh ./Scripts/pod-install.sh"
 alias ls="ls -a"
-alias destroyandrebuildpods="rm -rf ~/Library/Caches/CocoaPods; rm -rf Pods; rm -rf ~/Library/Developer/Xcode/DerivedData/*; pod deintegrate; pod setup; pod install;"
+alias destroyandrebuildpods="rm -rf ~/Library/Caches/CocoaPods; rm -rf Pods; rm -rf ~/Library/Developer/Xcode/DerivedData/*; pod deintegrate; pod setup; pod install --repo-update --verbose;"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
