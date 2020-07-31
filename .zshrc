@@ -118,7 +118,3 @@ alias pia="cd ~/Desktop/Sysco_Projects/sysco-shop-ios/ && sh ./Scripts/pod-insta
 alias ls="ls -a"
 alias destroyandrebuildpods="rm -rf ~/Library/Caches/CocoaPods; rm -rf Pods; rm -rf ~/Library/Developer/Xcode/DerivedData/*; pod deintegrate; pod setup; pod install --repo-update --verbose;"
 alias ydl="youtube-dl"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
